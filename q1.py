@@ -53,7 +53,7 @@ def run():
     circles= [Circle(0,0,5), Circle(1,1,2), Circle(10,10,3),Circle(0,0,1)]
 
     for c in circles:
-        print('Area: '+ str(c.getArea())+' Perimeter: '+ str(c.getPerimeter()))
+        print('Area: '+ str(c.getArea())+' Peremeter: '+ str(c.getPerimeter()))
 
     for c in circles:
         print('Contains (5,5): '+   str(c.containPoint(5,5)))
@@ -66,7 +66,7 @@ def run():
     for a in circles:
         for b in circles:
             if a is not b:
-                print('Overlaps other circle: '+ str(a.overlaps(b)))
+                print('Overlap other circle: '+ str(a.overlaps(b)))
 
 if __name__=='__main__':
     run()
