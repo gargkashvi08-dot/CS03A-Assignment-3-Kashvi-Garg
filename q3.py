@@ -5,13 +5,13 @@
 # /* SID: 20744788
 # /*****************************************************/
 
-def reverseDisplay(value):
-    print(value%10,end='')
-    if value//10!=0:
-        reverseDisplay(value//10)
+def reverseDisplay( val):
+    print(val%10,end= '')
+    if val//10!=0:
+        reverseDisplay(val//10)
 
 def run():
-    n=int(input('Enter an integer: '))
+    n= int(input( 'Enter an integer.! '))
     reverseDisplay(n)
     print()
 
