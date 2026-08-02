@@ -43,9 +43,9 @@ class ProductionWorker(Employee):
 def run():
     worker =ProductionWorker()
 
-    name =input('Enter employee name: ')
-    number =input('Entar employee number: ')
-    shift =int(input('Enter shift (1 for day, 2 for night): '))
+    name =input('Enter the employee name: ')
+    number =input('Entar the employee number: ')
+    shift =int(input('Enter shift (enter either 1 for day or 2 for night): '))
     payRate =float(input('enter hourly pay rate: '))
 
     worker.setName(name)
